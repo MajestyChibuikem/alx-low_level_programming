@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <main.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * _puts - prints a string
  * @str: value to output
