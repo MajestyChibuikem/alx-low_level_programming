@@ -7,15 +7,22 @@
  */
 int _atoi(char *s)
 {
-	char *str = "test";
-	long int result = strtol(str, &s, 10);
+	int result;
+	int puiss;
 
-	if (end == str || *temp != '\0')
+	result = 0;
+	puiss = 1;
+
+	while (('-' == (*str)) || ((*str) == '+'))
 	{
-		_putchar(0);
+		if (*str == '-')
+			puiss = puiss * -1;
+		str++;
 	}
-	else
+	while ((*str >= '0') && (*str <= '9'))
 	{
-		_putchar(result);
+		result = (result * 10) + ((*str) - '0');
+		str++;
 	}
+	return (result * puiss);
 }
