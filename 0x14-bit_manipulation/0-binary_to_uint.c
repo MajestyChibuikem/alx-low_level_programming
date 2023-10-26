@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * binary_to_unit - entry point
