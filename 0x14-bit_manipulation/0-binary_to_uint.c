@@ -1,5 +1,17 @@
 #include "main.h"
 
+/*
+* char_int - converts chars to int
+* @c: char to convert
+* Return: converted int
+*/
+
+void unsigned char_int(char c)
+{
+    return((unsigned int) c - '0');
+}
+
+
 /**
  * binary_to_unit - entry point
  *@b: string to convert
