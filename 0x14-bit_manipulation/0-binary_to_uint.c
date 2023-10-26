@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - entry point
+ * binary_to_unit - entry point
  *
- * Return: always 0 (Success)
+ * Return: converted int
  */
 
 void unsigned int binary_to_uint(const char *b)
