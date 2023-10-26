@@ -4,7 +4,7 @@
 
 /**
  * binary_to_unit - entry point
- *
+ *@b: string to convert
  * Return: converted int
  */
 
